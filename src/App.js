@@ -25,6 +25,8 @@ function App() {
 
         </Route>
         {/*-------------private routes user two ----------*/}
+                {/*-------------private routes user two ----------*/}
+
         <Route path="/private" element={<PrivateRoutes />}>
         <Route path="user-two" element={<UserTwo />}/>
         </Route>
